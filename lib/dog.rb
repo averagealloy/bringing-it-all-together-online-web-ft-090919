@@ -58,7 +58,10 @@ end
     end
 
     def self.find_by_id
+      sql = <<-SQL
 
 
+
+      SQL 
     end
 end
