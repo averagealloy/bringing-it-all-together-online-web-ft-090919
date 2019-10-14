@@ -27,7 +27,7 @@ attr_accessor :name, :breed, :id
     sql = <<-SQL
     DROP TABLE dogs
      
-    SQL 
+    SQL
     DB[:conn].execute(sql)
   end
 
