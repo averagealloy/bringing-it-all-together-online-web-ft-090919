@@ -85,7 +85,7 @@ end
       SELECT * FROM dogs WHERE name ?
       SQL
     end
-    DB[:conn].execute(sql, name)
+    DB[:conn].execute(sql, name).map do |row|
 
 
 end
