@@ -24,7 +24,7 @@ attr_accessor :name, :breed, :id
   end
 
   def self.drop_table
-    
+    sql = <<-SQL
   end
 
 end
