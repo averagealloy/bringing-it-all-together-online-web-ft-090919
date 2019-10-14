@@ -56,4 +56,9 @@ end
       self.new(another_hash)
 
     end
+
+    def
+      
+
+    end
 end
