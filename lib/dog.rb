@@ -89,6 +89,10 @@ end
       end.first
     end
     def update
-      
+      sql = <<-SQL
+      UPDATE dogs SET name = ?, breed = ?, WHERE id = ?
+
+      SQL
+
     end
 end
