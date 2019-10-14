@@ -53,7 +53,7 @@ end
         :name => row[1],
         :breed => row[2]
       }
-
+      self.new(another_hash)
 
     end
 end
