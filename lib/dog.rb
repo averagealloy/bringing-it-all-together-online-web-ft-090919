@@ -37,6 +37,7 @@ attr_accessor :name, :breed, :id
 
     SQL
     DB[:conn].execute(sql, self.name, self.breed)
+    @id = DB[:conn].execute("SELECT ")
   end
 
 end
