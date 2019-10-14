@@ -41,7 +41,7 @@ attr_accessor :name, :breed, :id
     self
   end
 
-def self.dog
+def self.create 
 
 end
 
